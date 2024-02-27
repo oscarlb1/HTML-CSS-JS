@@ -1,0 +1,217 @@
+/* CSS para pantallas pequeñas y medianas */
+body {
+    font-family: 'Roboto';
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AAE5F5;
+    height: 100px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.contenedor img {
+    max-width: 40px;
+    max-height: 40px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border-width: 2px;
+    text-align: center;
+    flex: 1 0 50%;
+    box-sizing: border-box;
+    padding: 15px;
+    transition: transform 0.5s;
+}
+
+.product:hover{
+    transform: scale(1.5); 
+}
+
+.product img {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.boton1 {
+    border: #AAE5F5;
+}
+
+.texto-oferta {
+    font-size: 20px;
+    border: 2px solid #AAE5F5;
+    background-color: #AAE5F5;
+    color:white;
+    display: inline-lock;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+.cat1 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondohombre.jpeg');
+    background-size: cover;
+}
+
+.cat2 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondomujer.jpeg');
+    background-size: cover;
+}
+
+.cat3 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondoelectronica.jpeg');
+    background-size: cover;
+}
+
+.cat4 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondopantalones.jpeg');
+    background-size: cover;
+}
+
+.cat5 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* esto a la altura que desees */
+    background-image: url('../img/fondoautomocion.jpeg');
+    background-size: cover;
+}
+
+.cat6 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondobelleza.jpeg');
+    background-size: cover;
+}
+
+.cat7 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondoaccesorios.jpeg');
+    background-size: cover;
+}
+
+.cat8 {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta esto a la altura que desees */
+    background-image: url('../img/fondohogar.jpeg');
+    background-size: cover;
+}
+
+.text {
+    font-family: 'Roboto';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 24px; /* Ajusta esto al tamaño de fuente que desees */
+    color: white;
+}
+
+/* CSS para pantallas medianas y grandes */
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        background-color: white;
+        border-width: 2px;
+        text-align: center;
+        flex: 1 0 25%;
+        box-sizing: border-box;
+        padding: 15px;
+        transition: transform 0.5s;
+    }
+
+    .product:hover{
+        transform: scale(1.5); 
+    }
+
+    .product img {
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* CSS para pantallas grandes */
+@media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        background-color: white;
+        border-width: 2px;
+        text-align: center;
+        flex: 1 0 16.6666666667%;
+        box-sizing: border-box;
+        padding: 15px;
+        transition: transform 0.5s;
+    }
+
+    .product:hover{
+        transform: scale(1.5); 
+    }
+
+    .product img {
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+}
