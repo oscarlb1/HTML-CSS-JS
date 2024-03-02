@@ -19,7 +19,6 @@ function calcular() {
         display.value = eval(display.value); // Coge el valor que haya en el display y lo evalua, es decir que te lo calcula, y luego te devuelve el valor.
     }
     catch (error) {
-        display.value = "Error"; // Si salta algún error o no se puede completar la operación, te sale un mensaje de error,
-        display.value = "";     //  y te limpia la pantalla de nuevo.
+        display.value = "Error"; // Si salta algún error o no se puede completar la operación, te sale un mensaje de error.
     }
 }
